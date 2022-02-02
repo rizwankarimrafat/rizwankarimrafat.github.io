@@ -394,10 +394,48 @@ img{
 }
 
 /*========== INTERESTS ==========*/
+.interests__container{
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: var(--mb-2);
+}
 
+.interests__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interests__icon{
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+  margin-bottom: .25rem;
+}
 
 /* Scroll top */
+.scrolltop{
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .3rem;
+  background-color: var(--container-color-alt);
+  border-radius: .4rem;
+  z-index: var(--z-tooltip);
+  transition: .4s;
+  /*visibility: hidden;*/
+}
 
+.scrolltop__icon{
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.show-scroll{
+  visibility: visible;
+  bottom: 5rem;
+}
 
 /*========== MEDIA QUERIES ==========*/
 /* For small devices, menu two columns */
