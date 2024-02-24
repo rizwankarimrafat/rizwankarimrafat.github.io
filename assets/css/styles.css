@@ -54,6 +54,10 @@ body.dark-theme{
   --body-color: #2b2b2b;
 }
 
+.justified {
+  text-align: justify;
+}
+
 /*========== Button Dark/Light ==========*/
 .change-theme{
   position: absolute;
