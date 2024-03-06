@@ -9,8 +9,6 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-// JavaScript function to scroll to the top of the page
-function scrollToTop() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-}
+const strippedString = originalString.replace(/(<([^>]+)>)/gi,"").trim()
+
+console.log(strippedString)
