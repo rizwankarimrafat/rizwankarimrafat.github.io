@@ -257,7 +257,7 @@ a:hover {
     width: 30%;
     height: 1px;
     content: '\a0';
-    background-color: #00979E;
+    background-color: black;
     margin-left: 20%;
 }
 .title_lines:before {
@@ -322,7 +322,7 @@ footer {
 }
 .contactfooter a:hover {
     text-decoration: none;
-    color: #00979E;
+    color: gray;
 }
 .mbot5 {
     margin-bottom: 2% !important;
@@ -680,7 +680,7 @@ header .projyear {
 
 
 
-.esclusionimaincontainer {
+.photomaincontainer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -691,7 +691,7 @@ header .projyear {
     margin-left: auto;
 }
 
-.esclusionicontainerleft {
+.photocontainerleft {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -699,7 +699,7 @@ header .projyear {
     width: 40%;
     padding-right: 5%;
 }
-.esclusionicontainerright {
+.photocontainerright {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -711,7 +711,7 @@ header .projyear {
     padding-left: 5%;
 }
 
-.esclusionicontainerleft img {
+.photocontainerleft img {
     width: 100%;
 }
 
@@ -725,7 +725,7 @@ strong {
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
     margin-bottom: 1%;
-    color: #00979E;
+    color: gray;
     font-size: 1.8em;
     font-weight: 400;
     letter-spacing: 0.1vw;
@@ -735,6 +735,14 @@ strong {
     font-size: 1.4em;
     font-weight: 400;
     line-height: 1.4em;
+}
+
+.escltext1 {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0%;
+    font-size: 0.7em;
+    font-weight: 200;
+    line-height: 1em;
 }
 
 .esclcontrightII {
@@ -1100,7 +1108,7 @@ strong {
     .projexplright {
         padding-left: 0% !important;
     }
-    .esclusionimaincontainer {
+    .photomaincontainer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1108,14 +1116,14 @@ strong {
         margin-right: auto;
         margin-left: auto;
     }
-    .esclusionicontainerleft {
+    .photocontainerleft {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
         padding: 0%;
         margin-bottom: 5%;
     }
-    .esclusionicontainerright {
+    .photocontainerright {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
