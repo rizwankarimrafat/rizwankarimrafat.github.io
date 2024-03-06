@@ -136,7 +136,7 @@ body {
 
 nav {
     width: 100%;    
-    position: fixed;
+    position: relative;
     position: -webkit-sticky;
     top: 0;
     z-index:1;
@@ -1687,3 +1687,23 @@ div.leftfooterab:hover p {
 .experience__title{
     font-size: var(--h3-font-size);
   }
+
+/* Scroll-to-top button styles */
+#scrollToTopBtn {
+    display: inline; /* Initially hide the button */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+    background-color: gray;
+}
+
