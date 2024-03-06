@@ -725,8 +725,8 @@ strong {
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
     margin-bottom: 1%;
-    color: gray;
-    font-size: 1.8em;
+    color: black;
+    font-size: 1.4em;
     font-weight: 400;
     letter-spacing: 0.1vw;
 }
@@ -738,11 +738,12 @@ strong {
 }
 
 .escltext1 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0%;
-    font-size: 0.7em;
-    font-weight: 200;
+    font-size: 0.75em;
+    font-weight: 400;
     line-height: 1em;
+    letter-spacing: 1vw;
 }
 
 .esclcontrightII {
