@@ -8,7 +8,3 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-
-const strippedString = originalString.replace(/(<([^>]+)>)/gi,"").trim()
-
-console.log(strippedString)
