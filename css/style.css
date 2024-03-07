@@ -1115,6 +1115,13 @@ strong {
     h1 {
         font-size: 6vw;
     }
+    h9 {
+        font-size: 7vw;
+        font-weight: 500;
+    }
+    .expmaincontainer {
+        font-size: 3vw;
+    }
     .projexpl {
         display: flex;
         flex-direction: column;
@@ -1702,13 +1709,6 @@ div.leftfooterab:hover p {
 @media (max-width: 375.98px) {
     .containerfooter {
         height: 10vh
-    }
-    h9 {
-        font-size: 7vw;
-        font-weight: 500;
-    }
-    .expmaincontainer {
-        font-size: 3vw;
     }
 }
 
