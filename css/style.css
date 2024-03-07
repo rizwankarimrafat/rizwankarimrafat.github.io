@@ -1701,7 +1701,7 @@ div.leftfooterab:hover p {
 
 @media (max-width: 375.98px) {
     .containerfooter {
-        height: 15vh
+        height: 10vh
     }
     h9 {
         font-size: 7vw;
