@@ -186,7 +186,7 @@ h1 {
 
 h9 {
     color: black;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.5vw;
     line-height: 1em;
     margin-top: 0%;
@@ -221,7 +221,7 @@ a.active {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 0.5em;
+    font-size: 0.7em;
     letter-spacing: 0.2em;
     color: black;
 }
@@ -234,7 +234,7 @@ a.active {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 0.5em;
+    font-size: 0.7em;
     letter-spacing: 0.2em;
     color: black;
 }
@@ -249,8 +249,8 @@ a:hover {
 }
 
 .title_lines {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 3%;
+    margin-bottom: 0%;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -731,6 +731,18 @@ header .projyear {
     width: 100%;
 }
 
+.expmaincontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.4em;
+}
+
 strong {
     font-weight: 600;
 }
@@ -759,8 +771,8 @@ strong {
     margin: 0%;
     font-size: 0.75em;
     font-weight: 400;
-    line-height: 1em;
-    letter-spacing: 0.4vw;
+    line-height: 1.6em;
+    letter-spacing: 0.25vw;
 }
 
 .escltext2 {
@@ -770,6 +782,13 @@ strong {
     font-weight: 400;
     line-height: 1em;
     letter-spacing: 0.2vw;
+}
+
+.homeexptext {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    font-size: 0.8em;
+    line-height: 1.4em;
 }
 
 .esclcontrightII {
@@ -1094,9 +1113,8 @@ strong {
 
 @media (max-width: 575.98px) {
     h1 {
-        font-size: 14vw;
+        font-size: 6vw;
     }
-
     .projexpl {
         display: flex;
         flex-direction: column;
@@ -1684,6 +1702,13 @@ div.leftfooterab:hover p {
 @media (max-width: 375.98px) {
     .containerfooter {
         height: 15vh
+    }
+    h9 {
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    .expmaincontainer {
+        font-size: 3vw;
     }
 }
 
