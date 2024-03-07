@@ -184,13 +184,13 @@ h1 {
     letter-spacing: 1vw;
 }
 
-h9 {
+.smallh9 {
     color: black;
     font-weight: 500;
     font-size: 1.5vw;
     line-height: 1em;
-    margin-top: 0%;
-    margin-bottom: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     letter-spacing: 0.5vw;
     font-family: 'Montserrat', sans-serif;
 }
