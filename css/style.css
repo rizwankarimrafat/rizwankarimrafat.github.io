@@ -589,6 +589,7 @@ div.rightfooter:hover p {
 .insideprojheader {
     position: relative;
     height: 100vh;
+    background-image: url('../img/photos-banner.jpg');
 }
 .projheadertitlecont {
     display: flex;
