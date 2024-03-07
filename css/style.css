@@ -1114,11 +1114,11 @@ strong {
 @media (max-width: 575.98px) {
     h1 {
         font-size: 6vw;
-        margin-top: 10%;
     }
     .smallh9 {
         font-size: 2.5vw;
         font-weight: 500;
+        margin-bottom: 20%;
     }
     .expmaincontainer {
         font-size: 3vw;
