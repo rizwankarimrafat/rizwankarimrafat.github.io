@@ -176,12 +176,23 @@ nav {
 
 h1 {
     color: black;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 4.5vw;
-    line-height: 2em;
+    line-height: 1em;
     margin-top: 10%;
     margin-bottom: 10%;
     letter-spacing: 1vw;
+}
+
+h9 {
+    color: black;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 1em;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    letter-spacing: 0.5vw;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a.active {
