@@ -39,21 +39,26 @@
 
     <section>
     <div class="contactmaincontainer">
-        <form action="contact_mail.php" method="post">
-            <label for="name" class="contacttext">Name</label>
-            <input type="text" name="name" required size="40" style="height: 20px;"> <br><br>
-    
-            <label for="email" class="contacttext">E-mail</label>
-            <input type="text" name="email" pattern="[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*" required size="40" style="height: 20px;"> <br><br>
-            
-            <label for="subject" class="contacttext">Subject</label>
-            <input type="text" name="subject" required size="40" style="height: 20px;"> <br><br>
-    
-            <label for="message" class="contacttext">Message</label>
-            <textarea type="text"  name="message" required rows="10" style="height: 150px;"> </textarea>  <br><br>
-
-            <input type="submit" value="SUBMIT" class="contacttext">
-        </form>
+        <form id="contact" action="mail.php" method="post">
+            <h1>Contact Form</h1>
+      
+            <fieldset>
+              <input placeholder="Your name" name="name" type="text" tabindex="1" autofocus>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Email Address" name="email" type="email" tabindex="2">
+            </fieldset>
+            <fieldset>
+              <input placeholder="Type your subject line" type="text" name="subject" tabindex="4">
+            </fieldset>
+            <fieldset>
+              <textarea name="message" placeholder="Type your Message Details Here..." tabindex="5"></textarea>
+            </fieldset>
+      
+            <fieldset>
+              <button type="submit" name="send" id="contact-submit">Submit Now</button>
+            </fieldset>
+          </form>
     </section>
 
     <footer>
