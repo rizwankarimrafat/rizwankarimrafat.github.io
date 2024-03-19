@@ -224,6 +224,7 @@ a.active {
     font-size: 0.7em;
     letter-spacing: 0.2em;
     color: black;
+    padding: 1%;
 }
 
 .coverinstagram:hover {
@@ -237,6 +238,7 @@ a.active {
     font-size: 0.7em;
     letter-spacing: 0.2em;
     color: black;
+    padding: 1%;
 }
 
 .coverlinkedin:hover {
