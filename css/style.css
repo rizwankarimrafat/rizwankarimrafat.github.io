@@ -1765,5 +1765,12 @@ div.leftfooterab:hover p {
     width: 80%;
 }
 
-
+.overviewtext {
+    width: 80%;
+    margin: 0%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
 
