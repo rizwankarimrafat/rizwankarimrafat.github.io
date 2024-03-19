@@ -37,10 +37,10 @@ try {
     $mail->setFrom('complain@karimmotors.com.bd', 'Customer Complain');
     $mail->addAddress('head@karimmotors.com.bd');     //Add a recipient
     //$mail->addAddress('ellen@example.com');               //Name is optional
-    $mail->addReplyTo('head@karimmotors.com.bd');
-    $mail->addCC('sales@karimmotors.com.bd');
-    $mail->addCC('service@karimmotors.com.bd');
-    $mail->addCC('head@karimmotors.com.bd');
+    // $mail->addReplyTo('head@karimmotors.com.bd');
+    // $mail->addCC('sales@karimmotors.com.bd');
+    // $mail->addCC('service@karimmotors.com.bd');
+    // $mail->addCC('head@karimmotors.com.bd');
     //$mail->addBCC('bcc@example.com');
     //Attachments
     //$mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
