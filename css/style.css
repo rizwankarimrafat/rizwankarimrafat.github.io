@@ -733,15 +733,13 @@ header .projyear {
 
 .contactmaincontainer {
     display: flex;
-    flex-direction: column; /* Stack fields vertically for mobile */
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
-    align-items: left;
-    width: 70%;
-    margin: 20px auto; /* Adjust margins as needed */
-    background-color: #f5f5f5; /* Light background */
-    border: 1px solid #ccc; /* Subtle border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 20px; /* Spacing around form elements */
+    width: 60%;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
 .expmaincontainer {
