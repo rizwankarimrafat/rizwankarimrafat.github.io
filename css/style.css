@@ -756,6 +756,11 @@ header .projyear {
     font-size: 1.4em;
 }
 
+.column {
+    flex-basis: 38%;
+    margin: 2%;
+}
+
 strong {
     font-weight: 600;
 }
