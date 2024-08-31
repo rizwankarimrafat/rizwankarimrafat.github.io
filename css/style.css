@@ -126,7 +126,7 @@ body {
 
 .homeheader {
     height: 100vh;
-    background-image: url(https://drive.google.com/thumbnail?id=1Ck2xQdUbQrh7LqIX99xJi2jTNqgwsnAF&sz=w1000);
+    background-image: url('../img/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
