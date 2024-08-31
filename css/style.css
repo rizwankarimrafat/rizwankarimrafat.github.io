@@ -534,7 +534,7 @@ div.rightfooter:hover p {
 
 .projheader {
     height: 100vh;
-    background-image: url('../img/photos-banner.jpg');
+    background-image: url('../img/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -604,7 +604,7 @@ div.rightfooter:hover p {
 .insideprojheader {
     /* position: relative; */
     height: 100vh;
-    background-image: url('../img/photos-banner.jpg');
+    background-image: url('../img/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
