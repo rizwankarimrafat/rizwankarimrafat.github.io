@@ -61,16 +61,34 @@
                 I hold a Bachelor of Science in Computer Science and Engineering, which gave me a solid foundation in software engineering, programming languages, 
                 and algorithm design. I'm now expanding my skills to include data analysis, machine learning, and statistical modeling.
                 
-                <br><br>As a data science enthusiast, I'm constantly seeking out new challenges and opportunities to apply my knowledge. My long-term career goal 
+                <br><br>
+                
+                As a data science enthusiast, I'm constantly seeking out new challenges and opportunities to apply my knowledge. My long-term career goal 
                 is to work in a data-driven organization where I can collaborate with cross-functional teams to develop innovative solutions that drive business value. 
-                I'm particularly interested in projects related to predictive analytics, natural language processing, and deep learning.<br><br>
+                I'm particularly interested in projects related to predictive analytics, natural language processing, and deep learning.
+                
+                <br><br>
                 
                 In my free time, I'm passionate about capturing moments through street photography. It's a creative outlet that allows me to explore different 
                 perspectives and document the world around me. Additionally, I enjoy reading about the latest advancements in data science and attending tech events 
                 to stay up-to-date on emerging trends. I also love playing chess and spending quality time with my family and friends.
                 
-                <br><br><br><br></p>
+                <br><br>
+            </p>
         </div>
+    </section>
+
+    <section>
+        <div class="expmaincontainer" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.1em; font-size: 1em">
+            <div id="result"></div>
+            <script>
+                var date = new Date(document.lastModified);
+                var options = { day: '2-digit', month: 'long', year: 'numeric' };
+                var formattedDate = date.toLocaleDateString('en-GB', options);
+                document.getElementById("result").innerHTML = "Last updated: " + formattedDate;
+            </script>
+        </div>
+        <br>
     </section>
 
     <section>

@@ -19,7 +19,7 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.1em;
-    font-size: 01em;
+    font-size: 1em;
     margin-top: -10%;
 }
 @media (max-width: 575.98px) {
@@ -303,7 +303,7 @@ a:hover {
 
 
 footer {
-    margin-top: 15%;
+    margin-top: 11%;
 }
 
 #indexfooter {
