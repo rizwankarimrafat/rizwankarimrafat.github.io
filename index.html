@@ -79,15 +79,24 @@
     </section>
 
     <section>
-        <div class="expmaincontainer" style="font-family: 'Montserrat', sans-serif; letter-spacing: 0.1em; font-size: 1em">
+        <div class="expmaincontainer">
             <div id="result"></div>
             <script>
                 var date = new Date(document.lastModified);
                 var options = { day: '2-digit', month: 'long', year: 'numeric' };
                 var formattedDate = date.toLocaleDateString('en-GB', options);
-                document.getElementById("result").innerHTML = "Last updated: " + formattedDate;
+                
+                var hours = date.getHours();
+                var minutes = date.getMinutes();
+                var ampm = hours >= 12 ? 'PM' : 'AM';
+                hours = hours % 12;
+                hours = hours ? hours : 12; // the hour '0' should be '12'
+                minutes = minutes < 10 ? '0' + minutes : minutes;
+                var formattedTime = hours + ':' + minutes + ' ' + ampm;
+        
+                document.getElementById("result").innerHTML = "Last updated: " + formattedDate + " | " + formattedTime;
             </script>
-        </div>
+        </div>      
         <br>
     </section>
 
