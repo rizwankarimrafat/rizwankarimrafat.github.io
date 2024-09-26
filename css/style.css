@@ -858,15 +858,21 @@ strong {
     text-align: center;
 }
 
+/* Centering and Styling the Blog Photo Container */
+.blog-photo {
+    display: flex;                /* Enables flexbox */
+    justify-content: center;      /* Centers horizontally */
+    align-items: center;          /* Centers vertically if needed */
+    margin: 40px 0;               /* Adds some space above and below the image */
+}
 
-
-
-
-
-
-
-
-
+/* Styling the Image */
+.blog-photo img {
+    max-width: 70%;              /* Makes the image responsive */
+    height: auto;                 /* Maintains aspect ratio */
+    /* border-radius: 8px;           Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a polished look */
+}
 
 
 
