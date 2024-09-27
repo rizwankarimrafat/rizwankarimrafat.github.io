@@ -868,13 +868,25 @@ strong {
 
 /* Styling the Image */
 .blog-photo img {
-    max-width: 70%;              /* Makes the image responsive */
+    max-width: 80%;              /* Makes the image responsive */
     height: auto;                 /* Maintains aspect ratio */
     /* border-radius: 8px;           Optional: Adds rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a polished look */
 }
 
+.blog-photo-thumbnail {
+    display: flex;                /* Enables flexbox */
+    justify-content: center;      /* Centers horizontally */
+    align-items: center;          /* Centers vertically if needed */
+    margin: 0px 0;               /* Adds some space above and below the image */
+}
 
+.blog-photo-thumbnail img {
+    max-width: 80%;              /* Makes the image responsive */
+    height: auto;                 /* Maintains aspect ratio */
+    /* border-radius: 8px;           Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a polished look */
+}
 
 /* IPS TYPOGRAPHUS */
 
@@ -1152,6 +1164,9 @@ strong {
         font-size: 6vw;
     }
     .wide-table {
+        width: 95%;
+    }
+    .blog-table {
         width: 95%;
     }
     .smallh9 {
@@ -1778,6 +1793,15 @@ div.leftfooterab:hover p {
 
 .wide-table {
     width: 80%;
+}
+
+.blog-table {
+    width: 90%;
+}
+
+.blog-table td {
+    vertical-align: middle;  /* Vertically centers the content */
+    padding: 10px;           /* Optional: Add padding for better spacing */
 }
 
 .overviewtext {
