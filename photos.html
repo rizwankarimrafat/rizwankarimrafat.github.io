@@ -188,11 +188,19 @@
     </section>
   
     <footer>
-        <div class="copyright">© 2024 Rizwan Karim Rafat, All Rights Reserved</div>
-    </footer> 
+        <div class="copyright">© <span id="currentYear"></span> Rizwan Karim Rafat, All Rights Reserved</div>
+    </footer>
+    
+    <script>
+        // Get the current year
+        const year = new Date().getFullYear();
+    
+        // Set it in the span with id "currentYear"
+        document.getElementById('currentYear').textContent = year;
+    </script>
 
             <!-- JavaScript -->
-            <script  src="js/script.js" type="text/javascript"></script>
+            <!-- <script  src="js/script.js" type="text/javascript"></script> -->
 
 </body>
 </html>

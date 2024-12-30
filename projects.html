@@ -51,7 +51,7 @@
                         <p style="text-align: justify; font-family: 'Montserrat', sans-serif; font-size: 0.8em; line-height: 1.4em;">
                             This project investigates advanced machine learning techniques for robotic grasping in unstructured environments, focusing on the Learning to 
                             Grasp (L2G) model for 6-DOF grasp prediction using 3D point cloud data. Simulation tests demonstrated a 93.6% grasp success rate and superior 
-                            efficiency compared to baseline models, showcasing the model’s robustness. Real-world deployment on the Doosan A0509 robotic arm revealed 
+                            efficiency compared to baseline models, showcasing the model's robustness. Real-world deployment on the Doosan A0509 robotic arm revealed 
                             challenges such as connectivity issues and hardware limitations, highlighting the complexities of transitioning from simulation to practical 
                             applications. Future work aims to enhance perception capabilities and test the model on diverse robotic platforms for broader applicability.
                             <br><br>
@@ -353,7 +353,15 @@
     </section>
 
     <footer>
-        <div class="copyright">© 2024 Rizwan Karim Rafat, All Rights Reserved</div>
-    </footer>  
+        <div class="copyright">© <span id="currentYear"></span> Rizwan Karim Rafat, All Rights Reserved</div>
+    </footer>
+    
+    <script>
+        // Get the current year
+        const year = new Date().getFullYear();
+    
+        // Set it in the span with id "currentYear"
+        document.getElementById('currentYear').textContent = year;
+    </script>
 </body>
 </html>

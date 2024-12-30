@@ -62,7 +62,15 @@
     </section>
 
     <footer>
-        <div class="copyright">© 2024 Rizwan Karim Rafat, All Rights Reserved</div>
+        <div class="copyright">© <span id="currentYear"></span> Rizwan Karim Rafat, All Rights Reserved</div>
     </footer>
+    
+    <script>
+        // Get the current year
+        const year = new Date().getFullYear();
+    
+        // Set it in the span with id "currentYear"
+        document.getElementById('currentYear').textContent = year;
+    </script>
 </body>
 </html>
