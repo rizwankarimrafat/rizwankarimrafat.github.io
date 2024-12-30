@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizwan Karim Rafat | Data Scientist | Street Photographer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="projheader">
+        <nav class="containerlinkbox" id="navbar">
+            <div class="linkbox">
+                <a class="title" href="../index.html"> HOME </a>
+                <a class="title" href="../projects.html"> PROJECTS </a>
+                <div class="spacer"></div>
+                <a class="title" href="../photos.html"> PHOTOS </a>
+                <a class="title" href="../contact.html"> CONTACT </a>
+            </div>
+        </nav>
+        <div class="projheadertitlecont">
+            <div class="projh1cont">      
+                <h1 class="h1proj"> Blog/Robotic Arm </h1>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="title_lines"><h2>//</h2></div>
+    </section>
+
+    <section>
+        <div class="expmaincontainer">
+            <div class="wide-table">
+                <p style="text-align: center; font-family: 'Montserrat', sans-serif; font-size: 0.8em; line-height: 1.4em;">
+                    ~ 30 December 2024 ~
+                </p>
+
+                <h2 style="text-align: center;">Machine Learning for Robotic Arm and Gripper Control</h3>
+
+                
+
+                <br><br>
+
+                <p style="text-align: center;">== x ==</p>
+
+                <p style="text-align: center;">
+                    <img src="https://visitor-badge.laobi.icu/badge?page_id=rizwankarimrafat.rizwankarimrafat.github.io.blog.robotic-arm&&left_text=Blog%20Readers" alt="visitor badge">
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="copyright">© <span id="currentYear"></span> Rizwan Karim Rafat, All Rights Reserved</div>
+    </footer>
+    
+    <script>
+        // Get the current year
+        const year = new Date().getFullYear();
+    
+        // Set it in the span with id "currentYear"
+        document.getElementById('currentYear').textContent = year;
+    </script>
+</body>
+</html>
