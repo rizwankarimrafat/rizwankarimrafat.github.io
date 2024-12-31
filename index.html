@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <!-- Meta tags -->
     <meta charset="UTF-8">
@@ -12,10 +13,13 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <!-- Header -->
     <header class="homeheader">
@@ -27,9 +31,9 @@
                 <a class="title" href="projects.html"> PROJECTS </a>
                 <div class="spacer"></div>
                 <a class="title" href="photos.html"> PHOTOS </a>
-                <a class="title" href="contact.html"> CONTACT </a> 
+                <a class="title" href="contact.html"> CONTACT </a>
             </div>
-        </nav>    
+        </nav>
 
         <!-- Main title -->
         <div class="h1container">
@@ -48,7 +52,9 @@
 
     <!-- Portfolio section -->
     <section>
-        <div class="title_lines"><h2>OVERVIEW</h2></div>
+        <div class="title_lines">
+            <h2>OVERVIEW</h2>
+        </div>
         <div class="portfoliocontainer">
             <!-- Portfolio images -->
             <!-- You can add more images here -->
@@ -57,30 +63,34 @@
 
     <section>
         <div class="expmaincontainer">
-            <p class="overviewtext">I am Rizwan Karim Rafat, a passionate data science professional with a strong educational background, holding a Master of 
-                Data Science degree from Western Sydney University and a Bachelor's in Computer Science & Engineering from American International University-Bangladesh. 
-                Throughout my career, I've worked in various roles, including as an IT Support Specialist, Junior Data Analyst, and Web Application Developer. 
-                These positions have honed my skills in technical support, data analysis, and full-stack web development, giving me a well-rounded experience in 
-                solving real-world challenges.
+            <p class="overviewtext">I am Rizwan Karim Rafat, a passionate data science professional with a strong
+                educational background, holding a Master of Data Science degree from Western Sydney University and a
+                Bachelor's in Computer Science & Engineering from American International University-Bangladesh.
+                Throughout my career, I've worked in various roles, including as an IT Support Specialist, Junior Data
+                Analyst, and Web Application Developer. These positions have honed my skills in technical support, data
+                analysis, and full-stack web development, giving me a well-rounded experience in solving real-world
+                challenges.
                 <br><br>
-                At Geeks in Sydney, I initially provided hands-on IT support, assisting SMEs with systems and infrastructure management, troubleshooting technical 
-                issues, and ensuring seamless IT service delivery for applications like Microsoft 365 and Google Workspace. Later, I transitioned into a Data Analyst 
-                role, where I developed and implemented advanced analytics models to optimize pricing, promotion, and marketing strategies. Collaborating with data 
-                engineering teams, I ensured data accuracy through cleaning and transformation, and I translated complex insights into actionable recommendations 
-                for business stakeholders.
+                At Geeks in Sydney, I initially provided hands-on IT support, assisting SMEs with systems and
+                infrastructure management, troubleshooting technical issues, and ensuring seamless IT service delivery
+                for applications like Microsoft 365 and Google Workspace. Later, I transitioned into a Data Analyst
+                role, where I developed and implemented advanced analytics models to optimize pricing, promotion, and
+                marketing strategies. Collaborating with data engineering teams, I ensured data accuracy through
+                cleaning and transformation, and I translated complex insights into actionable recommendations for
+                business stakeholders.
                 <br><br>
-                I have always been passionate about learning and applying advanced machine learning techniques. I've worked on projects that range from comparative 
-                analysis of C-VAE and C-GAN models for generating Japanese characters to predictive modeling of NSW school data using neural networks and support 
-                vector machines. Each project deepened my understanding of data science concepts and helped me explore different tools and methodologies for solving 
-                complex problems.
+                I have always been passionate about learning and applying advanced machine learning techniques. I've
+                worked on projects that range from comparative analysis of C-VAE and C-GAN models for generating
+                Japanese characters to predictive modeling of NSW school data using neural networks and support vector
+                machines. Each project deepened my understanding of data science concepts and helped me explore
+                different tools and methodologies for solving complex problems.
                 <br><br>
-                Outside of my professional life, I love doing street photography whenever I get the chance. It's my way to destress and capture the beauty of everyday 
-                life through my lens.
+                Outside of my professional life, I love doing street photography whenever I get the chance. It's my way
+                to destress and capture the beauty of everyday life through my lens.
                 <br><br>
-                For a more detailed look at my experience and projects, feel free to 
-                <a href="https://drive.google.com/file/d/1xQN1nvp3t3u6lZAIKuSIMLr_cNhfHy6x/view?usp=sharing" target="_blank">click here</a> 
-                to download my resume.
-                
+                For a more detailed look at my experience and projects, feel free to <a
+                    href="https://drive.google.com/file/d/1xQN1nvp3t3u6lZAIKuSIMLr_cNhfHy6x/view?usp=sharing"
+                    target="_blank">click here</a> to download my resume.
                 <br><br>
             </p>
         </div>
@@ -93,7 +103,7 @@
                 var date = new Date(document.lastModified);
                 var options = { day: '2-digit', month: 'long', year: 'numeric' };
                 var formattedDate = date.toLocaleDateString('en-GB', options);
-                
+
                 var hours = date.getHours();
                 var minutes = date.getMinutes();
                 var ampm = hours >= 12 ? 'PM' : 'AM';
@@ -101,10 +111,10 @@
                 hours = hours ? hours : 12; // the hour '0' should be '12'
                 minutes = minutes < 10 ? '0' + minutes : minutes;
                 var formattedTime = hours + ':' + minutes + ' ' + ampm;
-        
+
                 document.getElementById("result").innerHTML = "Last updated: " + formattedDate + " | " + formattedTime;
             </script>
-        </div>      
+        </div>
         <br>
     </section>
 
@@ -113,18 +123,19 @@
             <!-- <p>Site Visitor---</p>
             <a href='http://www.freevisitorcounters.com'>at Freevisitorcounters.com</a><script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=773b49307dfa0355c23bf03215cc4019cee2b41f'></script>
             <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1161616/t/5"></script> -->
-            <p><img src="https://visitor-badge.laobi.icu/badge?page_id=rizwankarimrafat.rizwankarimrafat.github.io&&left_text=Home%20Page%20Visitors" alt="visitor badge"></p>
+            <p><img src="https://visitor-badge.laobi.icu/badge?page_id=rizwankarimrafat.rizwankarimrafat.github.io&&left_text=Home%20Page%20Visitors"
+                    alt="visitor badge"></p>
         </div>
     </section>
 
     <footer>
         <div class="copyright">© <span id="currentYear"></span> Rizwan Karim Rafat, All Rights Reserved</div>
     </footer>
-    
+
     <script>
         // Get the current year
         const year = new Date().getFullYear();
-    
+
         // Set it in the span with id "currentYear"
         document.getElementById('currentYear').textContent = year;
     </script>
@@ -132,4 +143,5 @@
     <!-- JavaScript -->
     <!-- <script  src="js/script.js" type="text/javascript"></script> -->
 </body>
+
 </html>
