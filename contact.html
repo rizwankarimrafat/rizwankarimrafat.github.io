@@ -49,9 +49,27 @@
                     href="mailto:contact@rizwankarimrafat.com">contact@rizwankarimrafat.com</a> ~~</div>
     </section>
 
+    <section
+        style="display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center; width: 90%; margin-top: 10%; margin-right: auto; margin-left: auto;">
+        <!-- Google Calendar Appointment Scheduling begin -->
+        <iframe
+            src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ38KfCo9l-8BZAHK17xvV7NL4jKy0Q0Yv6SBfQnKoBozS9T9tIWAjbzIBEhiIEfNeiZKgURgbZ5?gv=true"
+            style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+        <!-- end Google Calendar Appointment Scheduling -->
+    </section>
+
+
     <footer>
-        <div class="copyright">© 2024 Rizwan Karim Rafat, All Rights Reserved</div>
+        <div class="copyright">© <span id="currentYear"></span> Rizwan Karim Rafat, All Rights Reserved</div>
     </footer>
+
+    <script>
+        // Get the current year
+        const year = new Date().getFullYear();
+
+        // Set it in the span with id "currentYear"
+        document.getElementById('currentYear').textContent = year;
+    </script>
 </body>
 
 </html>
